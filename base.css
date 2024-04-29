@@ -7,6 +7,18 @@ body {
     justify-content: center;
 }
 
+p {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
 .wrapper {
     width: 1200px;
     display: flex;
@@ -20,19 +32,68 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: rgb(152, 243, 223);
+    padding: 10px 20px 1150px;
 }
 .header {
     background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    min-height: 500px;
 }
 .content {
     background-color: white;
-    min-height: 300px;
-    padding: 20px;
+    min-height: 520;
+    padding-top: 10px ;
+    padding-bottom: 200px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(53, 135, 243);
+    min-height: 100px;
+    
 }
+
+#cabecalho {
+    font-family: monospace; 
+    background-color: rgb(26, 146, 140);
+    color: whitesmoke;
+}
+
+#textosobrehomepage {
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px ;
+}
+
+table, th{
+    border: 5px solid;
+    border-radius: 5px;
+    border-color: rgb(19, 19, 19);
+}
+
+th{
+    background-color: rgb(19, 19, 19);
+    color:rgb(240, 240, 240)
+}
+
+table, td{
+    width: 800px;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) td{
+background-color: #b7e9ec;
+}
+
+.iframemapa{
+    padding: 0px 0px 0px;
+}
+
+form {
+    width: 600px;
+    margin: 10px 0px 40px 40px;
+}
+
+label{
+    display: flex;
+    padding: 5px;
+}
+
